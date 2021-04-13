@@ -6,9 +6,13 @@ class SeatsController < ApplicationController
     end
 
     def show
-        @seat = Seat.all(params[:id])
-        render json: @seat
-    end
+        seat = Seat.find_by(id: params[:id])
+        if seat
+          render json: seat
+        else
+          render json: { error: "seat not found" }, status: :not_found
+        end
+      end
 
     def create
         @seat = Seat.create(seat_params)
@@ -30,7 +34,7 @@ class SeatsController < ApplicationController
     private
 
     def seat_params
-        params.permit(:section, :row, :number, :price, :is_taken?, :concert_id)
+        params.require(:seat).permit(:id, :section, :row, :number, :price, :is_open, :concert_id)
     end
 
 end

@@ -71,7 +71,7 @@ seats = [
         row:"AA",
         number:101,
         price:85,
-        is_taken?:true,
+        is_open:true,
         concert_id:2
     },
     {
@@ -79,7 +79,7 @@ seats = [
         row:"AA",
         number:102,
         price:85,
-        is_taken?:false,
+        is_open:true,
         concert_id:2
     }
 ]
