@@ -1,5 +1,6 @@
 concerts = [
     {
+        tickets_available:500,
         date:"September, 16th, 2020",
         time:"Wednesday, 7:30 PM",
         title:"Fall Gala with Itzhak Perlman",
@@ -8,6 +9,7 @@ concerts = [
         image_url:"https://res.cloudinary.com/nyphil/image/upload/f_auto,q_45/c_fill,h_628,w_1620/v1/images/concerts-tickets/calendar/2021/2021-OpeningGala-3240x1256.jpg"
     },
     {
+        tickets_available:500,
         date:"September, 17th, 2020",
         time:"Thursday, 7:30 PM",
         title:"Mozart, Chick Corea, and Joan Tower",
@@ -16,6 +18,7 @@ concerts = [
         image_url:"https://res.cloudinary.com/nyphil/image/upload/f_auto,q_45/c_fill,h_628,w_1620/v1/images/concerts-tickets/calendar/2021/2021-ChickCorea-3240x1256.jpg"
     },
     {
+        tickets_available:500,
         date:"September, 22nd, 2020",
         time:"Tuesday, 7:30 PM",
         title:"Mozart, Chick Corea, and Joan Tower",
@@ -24,6 +27,7 @@ concerts = [
         image_url:"https://res.cloudinary.com/nyphil/image/upload/f_auto,q_45/c_fill,h_628,w_1620/v1/images/concerts-tickets/calendar/2021/2021-ChickCorea-3240x1256.jpg"
     },
     {
+        tickets_available:500,
         date:"September, 24th, 2020",
         time:"Thursday, 7:30 PM",
         title:"Dvořák and Jessie Montgomery",
@@ -32,6 +36,7 @@ concerts = [
         image_url:"https://res.cloudinary.com/nyphil/image/upload/f_auto,q_45/c_fill,h_628,w_1620/v1/images/concerts-tickets/calendar/2021/2021-VanZwedenBatiashvili-3240x1256"
     },
     {
+        tickets_available:500,
         date:"September, 25th, 2020",
         time:"Friday, 2:00 PM",
         title:"Dvořák and Jessie Montgomery",
@@ -40,6 +45,7 @@ concerts = [
         image_url:"https://res.cloudinary.com/nyphil/image/upload/f_auto,q_45/c_fill,h_628,w_1620/v1/images/concerts-tickets/calendar/2021/2021-VanZwedenBatiashvili-3240x1256"
     },
     {
+        tickets_available:500,
         date:"September, 26th, 2020",
         time:"Saturday, 8:00 PM",
         title:"Dvořák and Jessie Montgomery",
@@ -48,6 +54,7 @@ concerts = [
         image_url:"https://res.cloudinary.com/nyphil/image/upload/f_auto,q_45/c_fill,h_628,w_1620/v1/images/concerts-tickets/calendar/2021/2021-VanZwedenBatiashvili-3240x1256"
     },
     {
+        tickets_available:500,
         date:"September, 29th, 2020",
         time:"Tuesday, 7:30 PM",
         title:"Dvořák and Jessie Montgomery",
@@ -62,12 +69,18 @@ seats = [
     {
         section:"3TC",
         row:"AA",
-        number:101
+        number:101,
+        price:85,
+        is_taken?:true,
+        concert_id:2
     },
     {
         section:"3TC",
         row:"AA",
-        number:102
+        number:102,
+        price:85,
+        is_taken?:false,
+        concert_id:2
     }
 ]
 
@@ -110,5 +123,5 @@ users.each do | users_hash |
     User.create( users_hash )
 end
 
-ticket1 = Ticket.create(user_id:1, seat_id:1, price:100)
-ticket2 = Ticket.create(user_id:1, seat_id:2, price:100)
+ticket1 = Ticket.create(user_id:1, seat_id:1)
+ticket2 = Ticket.create(user_id:1, seat_id:2)

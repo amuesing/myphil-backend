@@ -30,7 +30,7 @@ class SeatsController < ApplicationController
     private
 
     def seat_params
-        params.permit(:seat_section, :seat_row, :seat_number)
+        params.permit(:section, :row, :number, :price, :is_taken?, :concert_id)
     end
 
 end

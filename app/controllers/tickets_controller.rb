@@ -34,7 +34,7 @@ class TicketsController < ApplicationController
     private
 
     def ticket_params
-        params.permit(:user_id, :seat_id, :price, :concert_id)
+        params.permit(:user_id, :seat_id)
     end
 
 end

@@ -1,3 +1,4 @@
 class SeatSerializer < ActiveModel::Serializer
-  attributes :id, :seat_number, :seat_row, :seat_number
+  # has_many :tickets
+  attributes :id, :section, :row, :number, :concert_id, :is_taken?, :concert_id
 end
