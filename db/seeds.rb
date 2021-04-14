@@ -165,9 +165,16 @@ seats = [
 
 users = [
     {
-        email:"muesinga@ymail.com",
-        credit:500,
-        passphrase:"123"
+        email:"rsmith@ymail.com",
+        credit:4321,
+        passphrase:"123",
+        first_name:"Ronald",
+        last_name:"Smith",
+        address1:"123 Central Park West",
+        address2:"apt 6C",
+        city:"New York",
+        state:"NY",
+        zip:10023
     }
 ]
 
