@@ -72,7 +72,7 @@ seats = [
         number:101,
         price:85,
         is_open:true,
-        concert_id:2
+        concert_id:1
     },
     {
         section:"3TC",
@@ -80,7 +80,71 @@ seats = [
         number:102,
         price:85,
         is_open:true,
-        concert_id:2
+        concert_id:1
+    },
+    {
+        section:"3TC",
+        row:"AA",
+        number:103,
+        price:85,
+        is_open:true,
+        concert_id:1
+    },
+    {
+        section:"3TC",
+        row:"AA",
+        number:104,
+        price:85,
+        is_open:true,
+        concert_id:1
+    },
+    {
+        section:"3TC",
+        row:"AA",
+        number:105,
+        price:85,
+        is_open:true,
+        concert_id:1
+    },
+    {
+        section:"3TC",
+        row:"AA",
+        number:106,
+        price:85,
+        is_open:true,
+        concert_id:1
+    },
+    {
+        section:"3TC",
+        row:"AA",
+        number:107,
+        price:85,
+        is_open:true,
+        concert_id:1
+    },
+    {
+        section:"3TC",
+        row:"AA",
+        number:108,
+        price:85,
+        is_open:true,
+        concert_id:1
+    },
+    {
+        section:"3TC",
+        row:"AA",
+        number:109,
+        price:85,
+        is_open:true,
+        concert_id:1
+    },
+    {
+        section:"3TC",
+        row:"AA",
+        number:110,
+        price:85,
+        is_open:true,
+        concert_id:1
     }
 ]
 
