@@ -1,4 +1,4 @@
 class SeatSerializer < ActiveModel::Serializer
   # has_many :tickets
-  attributes :id, :section, :row, :number, :concert_id, :is_open, :concert_id
+  attributes :id, :section, :row, :number, :tooltip, :isReserved, :orientation, :concert_id, :isSelected
 end

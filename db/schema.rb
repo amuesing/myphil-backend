@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_04_14_153125) do
+ActiveRecord::Schema.define(version: 2021_04_17_190124) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -33,9 +33,11 @@ ActiveRecord::Schema.define(version: 2021_04_14_153125) do
     t.integer "number"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.integer "price"
-    t.boolean "is_open"
+    t.string "tooltip"
+    t.boolean "isReserved"
     t.integer "concert_id"
+    t.string "orientation"
+    t.boolean "isSelected"
   end
 
   create_table "tickets", force: :cascade do |t|

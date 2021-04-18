@@ -34,7 +34,7 @@ class SeatsController < ApplicationController
     private
 
     def seat_params
-        params.require(:seat).permit(:id, :section, :row, :number, :price, :is_open, :concert_id)
+        params.require(:seat).permit(:id, :section, :row, :number, :tooltip, :isReserved, :orientation, :concert_id, :isSelected)
     end
 
 end
