@@ -69,7 +69,7 @@ seats = [
         [{
             section:"Orch 1",
             row:"A",
-            number:101,
+            number:1,
             isReserved:false,
             isSelected:false,
             orientation:"north",
@@ -79,7 +79,7 @@ seats = [
         {
             section:"Orch 1",
             row:"A",
-            number:102,
+            number:2,
             isReserved:false,
             isSelected:false,
             orientation:"north",
@@ -89,296 +89,296 @@ seats = [
         {
             section:"Orch 1",
             row:"A",
-            number:103,
+            number:3,
             isReserved:false,
             isSelected:false,
             orientation:"north",
             tooltip:"$126",
             concert_id:1
         },
-        {
-            section:"Orch 1",
-            row:"A",
-            number:104,
-            isReserved:false,
-            isSelected:false,
-            orientation:"north",
-            tooltip:"$126",
-            concert_id:1
-        },
-        {
-            section:"Orch 1",
-            row:"A",
-            number:105,
-            isReserved:false,
-            isSelected:false,
-            orientation:"north",
-            tooltip:"$126",
-            concert_id:1
-        },
-        {
-            section:"Orch 1",
-            row:"A",
-            number:106,
-            isReserved:false,
-            isSelected:false,
-            orientation:"north",
-            tooltip:"$126",
-            concert_id:1
-        },
-        {
-            section:"Orch 1",
-            row:"A",
-            number:107,
-            isReserved:false,
-            isSelected:false,
-            orientation:"north",
-            tooltip:"$126",
-            concert_id:1
-        },
-        {
-            section:"Orch 1",
-            row:"A",
-            number:108,
-            isReserved:false,
-            isSelected:false,
-            orientation:"north",
-            tooltip:"$126",
-            concert_id:1
-        },
-        {
-            section:"Orch 1",
-            row:"A",
-            number:109,
-            isReserved:false,
-            isSelected:false,
-            orientation:"north",
-            tooltip:"$126",
-            concert_id:1
-        },
-        {
-            section:"Orch 1",
-            row:"A",
-            number:110,
-            isReserved:false,
-            isSelected:false,
-            orientation:"north",
-            tooltip:"$126",
-            concert_id:1
-        },
-        {
-            section:"Orch 1",
-            row:"A",
-            number:111,
-            isReserved:false,
-            isSelected:false,
-            orientation:"north",
-            tooltip:"$126",
-            concert_id:1
-        },
-        {
-            section:"Orch 1",
-            row:"A",
-            number:112,
-            isReserved:false,
-            isSelected:false,
-            orientation:"north",
-            tooltip:"$126",
-            concert_id:1
-        },
-        {
-            section:"Orch 1",
-            row:"A",
-            number:113,
-            isReserved:false,
-            isSelected:false,
-            orientation:"north",
-            tooltip:"$126",
-            concert_id:1
-        },
-        {
-            section:"Orch 1",
-            row:"A",
-            number:114,
-            isReserved:false,
-            isSelected:false,
-            orientation:"north",
-            tooltip:"$126",
-            concert_id:1
-        },
-        {
-            section:"Orch 1",
-            row:"A",
-            number:115,
-            isReserved:false,
-            isSelected:false,
-            orientation:"north",
-            tooltip:"$126",
-            concert_id:1
-        },
-        {
-            section:"Orch 1",
-            row:"A",
-            number:116,
-            isReserved:false,
-            isSelected:false,
-            orientation:"north",
-            tooltip:"$126",
-            concert_id:1
-        }
+        # {
+        #     section:"Orch 1",
+        #     row:"A",
+        #     number:104,
+        #     isReserved:false,
+        #     isSelected:false,
+        #     orientation:"north",
+        #     tooltip:"$126",
+        #     concert_id:1
+        # },
+        # {
+        #     section:"Orch 1",
+        #     row:"A",
+        #     number:105,
+        #     isReserved:false,
+        #     isSelected:false,
+        #     orientation:"north",
+        #     tooltip:"$126",
+        #     concert_id:1
+        # },
+        # {
+        #     section:"Orch 1",
+        #     row:"A",
+        #     number:106,
+        #     isReserved:false,
+        #     isSelected:false,
+        #     orientation:"north",
+        #     tooltip:"$126",
+        #     concert_id:1
+        # },
+        # {
+        #     section:"Orch 1",
+        #     row:"A",
+        #     number:107,
+        #     isReserved:false,
+        #     isSelected:false,
+        #     orientation:"north",
+        #     tooltip:"$126",
+        #     concert_id:1
+        # },
+        # {
+        #     section:"Orch 1",
+        #     row:"A",
+        #     number:108,
+        #     isReserved:false,
+        #     isSelected:false,
+        #     orientation:"north",
+        #     tooltip:"$126",
+        #     concert_id:1
+        # },
+        # {
+        #     section:"Orch 1",
+        #     row:"A",
+        #     number:109,
+        #     isReserved:false,
+        #     isSelected:false,
+        #     orientation:"north",
+        #     tooltip:"$126",
+        #     concert_id:1
+        # },
+        # {
+        #     section:"Orch 1",
+        #     row:"A",
+        #     number:110,
+        #     isReserved:false,
+        #     isSelected:false,
+        #     orientation:"north",
+        #     tooltip:"$126",
+        #     concert_id:1
+        # },
+        # {
+        #     section:"Orch 1",
+        #     row:"A",
+        #     number:111,
+        #     isReserved:false,
+        #     isSelected:false,
+        #     orientation:"north",
+        #     tooltip:"$126",
+        #     concert_id:1
+        # },
+        # {
+        #     section:"Orch 1",
+        #     row:"A",
+        #     number:112,
+        #     isReserved:false,
+        #     isSelected:false,
+        #     orientation:"north",
+        #     tooltip:"$126",
+        #     concert_id:1
+        # },
+        # {
+        #     section:"Orch 1",
+        #     row:"A",
+        #     number:113,
+        #     isReserved:false,
+        #     isSelected:false,
+        #     orientation:"north",
+        #     tooltip:"$126",
+        #     concert_id:1
+        # },
+        # {
+        #     section:"Orch 1",
+        #     row:"A",
+        #     number:114,
+        #     isReserved:false,
+        #     isSelected:false,
+        #     orientation:"north",
+        #     tooltip:"$126",
+        #     concert_id:1
+        # },
+        # {
+        #     section:"Orch 1",
+        #     row:"A",
+        #     number:115,
+        #     isReserved:false,
+        #     isSelected:false,
+        #     orientation:"north",
+        #     tooltip:"$126",
+        #     concert_id:1
+        # },
+        # {
+        #     section:"Orch 1",
+        #     row:"A",
+        #     number:116,
+        #     isReserved:false,
+        #     isSelected:false,
+        #     orientation:"north",
+        #     tooltip:"$126",
+        #     concert_id:1
+        # }
     ],
-    [
-        {
-            section:"Orch 1",
-            row:"B",
-            number:102,
-            isReserved:false,
-            isSelected:false,
-            orientation:"north",
-            tooltip:"$126",
-            concert_id:1
-        },
-        {
-            section:"Orch 1",
-            row:"B",
-            number:103,
-            isReserved:false,
-            isSelected:false,
-            orientation:"north",
-            tooltip:"$126",
-            concert_id:1
-        },
-        {
-            section:"Orch 1",
-            row:"B",
-            number:104,
-            isReserved:false,
-            isSelected:false,
-            orientation:"north",
-            tooltip:"$126",
-            concert_id:1
-        },
-        {
-            section:"Orch 1",
-            row:"B",
-            number:105,
-            isReserved:false,
-            isSelected:false,
-            orientation:"north",
-            tooltip:"$126",
-            concert_id:1
-        },
-        {
-            section:"Orch 1",
-            row:"B",
-            number:106,
-            isReserved:false,
-            isSelected:false,
-            orientation:"north",
-            tooltip:"$126",
-            concert_id:1
-        },
-        {
-            section:"Orch 1",
-            row:"B",
-            number:107,
-            isReserved:false,
-            isSelected:false,
-            orientation:"north",
-            tooltip:"$126",
-            concert_id:1
-        },
-        {
-            section:"Orch 1",
-            row:"B",
-            number:108,
-            isReserved:false,
-            isSelected:false,
-            orientation:"north",
-            tooltip:"$126",
-            concert_id:1
-        },
-        {
-            section:"Orch 1",
-            row:"B",
-            number:109,
-            isReserved:false,
-            isSelected:false,
-            orientation:"north",
-            tooltip:"$126",
-            concert_id:1
-        },
-        {
-            section:"Orch 1",
-            row:"B",
-            number:110,
-            isReserved:false,
-            isSelected:false,
-            orientation:"north",
-            tooltip:"$126",
-            concert_id:1
-        },
-        {
-            section:"Orch 1",
-            row:"B",
-            number:111,
-            isReserved:false,
-            isSelected:false,
-            orientation:"north",
-            tooltip:"$126",
-            concert_id:1
-        },
-        {
-            section:"Orch 1",
-            row:"B",
-            number:112,
-            isReserved:false,
-            isSelected:false,
-            orientation:"north",
-            tooltip:"$126",
-            concert_id:1
-        },
-        {
-            section:"Orch 1",
-            row:"B",
-            number:113,
-            isReserved:false,
-            isSelected:false,
-            orientation:"north",
-            tooltip:"$126",
-            concert_id:1
-        },
-        {
-            section:"Orch 1",
-            row:"B",
-            number:114,
-            isReserved:false,
-            isSelected:false,
-            orientation:"north",
-            tooltip:"$126",
-            concert_id:1
-        },
-        {
-            section:"Orch 1",
-            row:"B",
-            number:115,
-            isReserved:false,
-            isSelected:false,
-            orientation:"north",
-            tooltip:"$126",
-            concert_id:1
-        },
-        {
-            section:"Orch 1",
-            row:"B",
-            number:116,
-            isReserved:false,
-            isSelected:false,
-            orientation:"north",
-            tooltip:"$126",
-            concert_id:1
-        }
-    ],
+        # [
+        #     {
+        #         section:"Orch 1",
+        #         row:"B",
+        #         number:102,
+        #         isReserved:false,
+        #         isSelected:false,
+        #         orientation:"north",
+        #         tooltip:"$126",
+        #         concert_id:1
+        #     },
+        #     {
+        #         section:"Orch 1",
+        #         row:"B",
+        #         number:103,
+        #         isReserved:false,
+        #         isSelected:false,
+        #         orientation:"north",
+        #         tooltip:"$126",
+        #         concert_id:1
+        #     },
+        #     {
+        #         section:"Orch 1",
+        #         row:"B",
+        #         number:104,
+        #         isReserved:false,
+        #         isSelected:false,
+        #         orientation:"north",
+        #         tooltip:"$126",
+        #         concert_id:1
+        #     },
+        #     {
+        #         section:"Orch 1",
+        #         row:"B",
+        #         number:105,
+        #         isReserved:false,
+        #         isSelected:false,
+        #         orientation:"north",
+        #         tooltip:"$126",
+        #         concert_id:1
+        #     },
+        #     {
+        #         section:"Orch 1",
+        #         row:"B",
+        #         number:106,
+        #         isReserved:false,
+        #         isSelected:false,
+        #         orientation:"north",
+        #         tooltip:"$126",
+        #         concert_id:1
+        #     },
+        #     {
+        #         section:"Orch 1",
+        #         row:"B",
+        #         number:107,
+        #         isReserved:false,
+        #         isSelected:false,
+        #         orientation:"north",
+        #         tooltip:"$126",
+        #         concert_id:1
+        #     },
+        #     {
+        #         section:"Orch 1",
+        #         row:"B",
+        #         number:108,
+        #         isReserved:false,
+        #         isSelected:false,
+        #         orientation:"north",
+        #         tooltip:"$126",
+        #         concert_id:1
+        #     },
+        #     {
+        #         section:"Orch 1",
+        #         row:"B",
+        #         number:109,
+        #         isReserved:false,
+        #         isSelected:false,
+        #         orientation:"north",
+        #         tooltip:"$126",
+        #         concert_id:1
+        #     },
+        #     {
+        #         section:"Orch 1",
+        #         row:"B",
+        #         number:110,
+        #         isReserved:false,
+        #         isSelected:false,
+        #         orientation:"north",
+        #         tooltip:"$126",
+        #         concert_id:1
+        #     },
+        #     {
+        #         section:"Orch 1",
+        #         row:"B",
+        #         number:111,
+        #         isReserved:false,
+        #         isSelected:false,
+        #         orientation:"north",
+        #         tooltip:"$126",
+        #         concert_id:1
+        #     },
+        #     {
+        #         section:"Orch 1",
+        #         row:"B",
+        #         number:112,
+        #         isReserved:false,
+        #         isSelected:false,
+        #         orientation:"north",
+        #         tooltip:"$126",
+        #         concert_id:1
+        #     },
+        #     {
+        #         section:"Orch 1",
+        #         row:"B",
+        #         number:113,
+        #         isReserved:false,
+        #         isSelected:false,
+        #         orientation:"north",
+        #         tooltip:"$126",
+        #         concert_id:1
+        #     },
+        #     {
+        #         section:"Orch 1",
+        #         row:"B",
+        #         number:114,
+        #         isReserved:false,
+        #         isSelected:false,
+        #         orientation:"north",
+        #         tooltip:"$126",
+        #         concert_id:1
+        #     },
+        #     {
+        #         section:"Orch 1",
+        #         row:"B",
+        #         number:115,
+        #         isReserved:false,
+        #         isSelected:false,
+        #         orientation:"north",
+        #         tooltip:"$126",
+        #         concert_id:1
+        #     },
+        #     {
+        #         section:"Orch 1",
+        #         row:"B",
+        #         number:116,
+        #         isReserved:false,
+        #         isSelected:false,
+        #         orientation:"north",
+        #         tooltip:"$126",
+        #         concert_id:1
+        #     }
+        # ],
     # [
     #     {
     #         section:"Orch 1",
@@ -704,5 +704,5 @@ users.each do | users_hash |
     User.create( users_hash )
 end
 
-ticket1 = Ticket.create(user_id:1, seat_id:1)
-ticket2 = Ticket.create(user_id:1, seat_id:2)
+# ticket1 = Ticket.create(user_id:1, seat_id:1)
+# ticket2 = Ticket.create(user_id:1, seat_id:2)
